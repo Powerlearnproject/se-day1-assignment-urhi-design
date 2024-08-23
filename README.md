@@ -38,13 +38,54 @@ While agile methodology which accept changes can be used when developing a softw
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
 
 
+1. The major role and responsibility of a Software Developer is to  focus on building and maintaining the software. Writing and editing the codes  and testing for bugs.
+2. The major role and responsibility of a QA Engineer is to ensure the software works correctly and meets quality standards.
+3. The major role of a Project Manager is to oversee the project’s overall success, managing timelines, resources, and stakeholder expectations.
+
+
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
+
+1. IDEs streamline the development process by providing an all-in-one platform with tools for writing, testing, and debugging code, enhancing developer productivity and code quality. An example is the popular visual studio code.
+2. VCS ensures collaboration, maintains a history of changes, and facilitates parallel development, improving codebase management and stability. An example is Git. Which happens to be the program i am using to edit this work. 
+
 
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
 
+Some problems faced by the software engineer includes:
+ 1. Keeping Up with Rapidly Changing Technology
+ 2. Managing Technical Debt
+ 3. Handling Complex Requirements and Scope Creep
+ 4. Debugging and Troubleshooting Complex Issues
+
+Some strategies to implore to solve these problems include:
+
+1.Dedicate time each week to learning new technologies through online courses, tutorials, or reading technical blogs. 
+2. Conduct thorough code reviews to catch potential issues early and ensure high-quality code standards are maintained.
+3. Document all requirements clearly and ensure any changes are formally reviewed and approved by stakeholders before implementation.
+4. Work with team members to brainstorm and solve complex problems. Pair programming or mob programming can help in sharing knowledge and finding solutions faster.
+
+
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+
+
+
+1. Unit Testing: Focuses on individual components to ensure they work correctly in isolation, improving code quality and facilitating easier maintenance.
+
+The major importance of this is Early Bug Detection.
+2. Integration Testing:Ensures that different modules or services work together as expected, catching interface defects and interaction issues early. 
+
+The major importance of this is to verify that different parts of the application integrate correctly and produce the desired outcome when working together.
+
+3. System Testing:Tests the entire application as a whole to validate its functionality, performance, and security in a production-like environment.
+
+The major importance is that it ensures that the entire application, including all its components and integrations, works as intended in real-world scenarios.
+
+4. Acceptance Testing: Confirms that the software meets business requirements and is ready for release by involving stakeholders and end-users.
+
+The major importance of this is that by catching any issues related to user experience, functionality, or business logic before release, acceptance testing helps reduce the number of defects that make it to production.
+
 
 
 #Part 2: Introduction to AI and Prompt Engineering
@@ -53,4 +94,14 @@ Explain the different types of testing (unit, integration, system, and acceptanc
 Define prompt engineering and discuss its importance in interacting with AI models.
 
 
+Prompt Engineering is the process of designing and crafting effective prompts or input queries to interact with AI models. 
+
+The Importance of Prompt Engineering in Interacting with AI Models are to enhance the response quality to help guide thr model to understand the context of the language.
+it also helps the AI model to narrow out its search.
+
+
+
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+
+An example is asking the AI to make a dessert. There are hundreds of desserts so the MODEL would be confused and might not give the right response. Instead of this the command to be given suppsed to be more precise like " recipe to make chocolate cake for dessert ".
+This improved prompt is morre effective as it narrows down the type of dessert and the information on the dessert i want(recipe) in this case.
